@@ -13,7 +13,7 @@
 
 <body class="font-[ poppins, 'sans_serif'] box-border bg-gradient-to-t from-[#2b1055] to-[#7597de] min-h-screen">
     <!-- nav bar -->
-    <header class="absolute top-0 left-0 w-full py-8 px-24 flex justify-between items-center">
+    <header class="absolute top-0 left-0 w-full py-8 px-24 flex justify-between items-center z-[1000]">
         <a class="text-white font-bold no-underline	text-[2em] uppercase tracking-[2px]" href="#">Logo</a>
         <ul class="text-white flex justify-center items-center ">
             <li class="ml-5 py-1.5	px-4 text-[#2b1055] bg-white rounded-3xl"><a href="#">Home</a></li>
@@ -24,7 +24,20 @@
     </header>
     <!-- nav bar/ -->
     <!-- images section  -->
-
+    <section class="relative w-full	h-screen p-24 flex justify-center items-center overflow-hidden">
+        <img class="absolute top-0 left-0 w-full h-full object-cover pointer-events-none" src="images/images/stars.png"
+            alt="" id="stars">
+        <img class="absolute top-115 left-0 w-full h-full object-cover mix-blend-screen pointer-events-none"
+            src="images/images/moon.png" alt="" id="moon">
+        <img class="absolute top-0 left-0 w-full h-full object-cover pointer-events-none"
+            src="images/images/mountains_behind.png" alt="" id="mountains_behind">
+        <h2 class="absolute text-[7.5vw] text-white whitespace-nowrap z-[9]" id="text">Moon Light
+        </h2>
+        <a href="#"
+            class="py-2 px-8 rounded-[40px] bg-white text-[#2b1055] text-2xl inline-block z-[9] translate-y-[100px]">Explore</a>
+        <img class="absolute top-0 left-0 w-full h-full object-cover z-10 pointer-events-none"
+            src="images/images/mountains_front.png" alt="" id="mountains_front">
+    </section>
     <!-- images section/  -->
     <!-- paragraph section/  -->
 
